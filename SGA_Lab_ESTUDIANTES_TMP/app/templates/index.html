@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block content %}<section class="card"><h1>Sistema de Gestion Academica</h1><p>Proyecto de laboratorio para Calidad del Software II.</p>{% if user %}<h2>Bienvenido, {{user['first_name']}}</h2><p>Rol: {{user['role']}}</p>{% else %}<a class="btn" href="/auth/login">Ingresar</a>{% endif %}</section>{% endblock %}

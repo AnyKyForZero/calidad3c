@@ -1,0 +1,17 @@
+﻿caso;pagina;verificacion;resultado;impacto;detalle;elementos;navegador;version;so
+ACC-034;/auth/login;Contraste de color (WCAG 1.4.3);CUMPLE;;;;chrome;157.0.8103.52;Windows 11
+ACC-035;/auth/login;Nombres, etiquetas y estructura accesibles (WCAG 1.3.1 / 4.1.2 / 2.4.2 / 3.1.1);CUMPLE;;;;chrome;157.0.8103.52;Windows 11
+ACC-033;/auth/login;Todos los controles se alcanzan con Tab;CUMPLE;serious;"7 de 7 alcanzados; faltan: ";;chrome;157.0.8103.52;Windows 11
+ACC-033;/auth/login;Sin trampas de teclado (WCAG 2.1.2);CUMPLE;critical;el foco se queda atascado en un control;;chrome;157.0.8103.52;Windows 11
+ACC-033;/auth/login;Foco visible en cada control (WCAG 2.4.7);CUMPLE;serious;0 control(es) sin indicador de foco: ;;chrome;157.0.8103.52;Windows 11
+ACC-033;/auth/login;Iniciar sesion usando solo el teclado (Tab, texto, Enter);CUMPLE;critical;con Enter no se inicio la sesion;;chrome;157.0.8103.52;Windows 11
+ACC-034;/courses/;Contraste de color (WCAG 1.4.3);CUMPLE;;;;chrome;157.0.8103.52;Windows 11
+ACC-035;/courses/;Nombres, etiquetas y estructura accesibles (WCAG 1.3.1 / 4.1.2 / 2.4.2 / 3.1.1);CUMPLE;;;;chrome;157.0.8103.52;Windows 11
+ACC-033;/courses/;Todos los controles se alcanzan con Tab;CUMPLE;serious;"8 de 8 alcanzados; faltan: ";;chrome;157.0.8103.52;Windows 11
+ACC-033;/courses/;Sin trampas de teclado (WCAG 2.1.2);CUMPLE;critical;el foco se queda atascado en un control;;chrome;157.0.8103.52;Windows 11
+ACC-033;/courses/;Foco visible en cada control (WCAG 2.4.7);CUMPLE;serious;0 control(es) sin indicador de foco: ;;chrome;157.0.8103.52;Windows 11
+ACC-034;/enrollments/my;Contraste de color (WCAG 1.4.3);CUMPLE;;;;chrome;157.0.8103.52;Windows 11
+ACC-035;/enrollments/my;Nombres, etiquetas y estructura accesibles (WCAG 1.3.1 / 4.1.2 / 2.4.2 / 3.1.1);CUMPLE;;;;chrome;157.0.8103.52;Windows 11
+ACC-033;/enrollments/my;Todos los controles se alcanzan con Tab;CUMPLE;serious;"4 de 4 alcanzados; faltan: ";;chrome;157.0.8103.52;Windows 11
+ACC-033;/enrollments/my;Sin trampas de teclado (WCAG 2.1.2);CUMPLE;critical;el foco se queda atascado en un control;;chrome;157.0.8103.52;Windows 11
+ACC-033;/enrollments/my;Foco visible en cada control (WCAG 2.4.7);CUMPLE;serious;0 control(es) sin indicador de foco: ;;chrome;157.0.8103.52;Windows 11

@@ -1,0 +1,3 @@
+﻿caso;prueba;resultado;incumplimientos;detalle
+FAIL-037;FAIL-037-023011-A (cupo 50, 30 estudiantes x 6 solicitudes simultaneas);CUMPLE;;reales=30, enrolled_count=30
+FAIL-037;FAIL-037-023011-B (cupo 10, 30 estudiantes x 4 solicitudes simultaneas);CUMPLE;;reales=10, enrolled_count=10

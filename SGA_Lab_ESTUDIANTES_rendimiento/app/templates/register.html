@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block content %}<div class="card form"><h1>Registro</h1><form method="post">{% for x in ['document','first_name','last_name','email','phone','password'] %}<label>{{x}}<input name="{{x}}" {% if x=='password' %}type="password"{% endif %} required></label>{% endfor %}<button>Registrar</button></form></div>{% endblock %}

@@ -1,0 +1,33 @@
+FASE XI - PRUEBAS DE COMPATIBILIDAD (COM-029, COM-030)
+Carpeta compat\ en la raiz de la copia SGA_Lab_ESTUDIANTES_rendimiento (con la correccion DEF-15 aplicada).
+
+ALCANCE (definirlo antes de ejecutar; escribirlo en el informe)
+  Navegadores: Chrome, Edge, Firefox (los que esten instalados; Safari fuera de alcance por falta de equipo).
+  Pantallas: escritorio 1366x768, tableta 768x1024, movil 390x844.
+  Operaciones: iniciar sesion, consultar cursos, matricularse, ver mis matriculas, cerrar sesion.
+  Criterio: cada paso funciona igual en todos los navegadores y es utilizable (visible, dentro de la pantalla,
+  sin desplazamiento horizontal) en todas las resoluciones del alcance.
+
+PASOS
+  1. Servidor iniciado:  python -m waitress --listen=127.0.0.1:5000 run:app
+  2. python -m pip install selenium
+  3. Usuarios de prueba (si no existen):  python carga\preparar_datos_carga.py --usuarios 600
+     (se usan carga0590, carga0591, carga0592: uno por navegador)
+  4. Ejecutar CON VENTANA VISIBLE (esa es la evidencia):
+       python compat\compatibilidad.py
+     Otros ejemplos:  --navegadores chrome,edge   --viewports escritorio,movil   --usuario-base 590
+  5. Abrir compat\resultados\compat_resultado.csv y las capturas de compat\resultados\capturas\.
+
+COMPLEMENTO MANUAL (diferencias visuales que el script no ve: tipografia, alineacion, colores, tablas cortadas)
+  En cada navegador, con F12 > modo dispositivo (Ctrl+Shift+M) en 390x844 y 768x1024, revisar y anotar:
+   [ ] login   [ ] lista de cursos   [ ] matricula   [ ] mis matriculas   [ ] cierre de sesion
+   [ ] como docente: registrar notas        [ ] como administrador: crear curso
+  Registrar para cada uno: navegador y version (Menu > Acerca de), sistema operativo, resolucion, diferencia observada.
+  Si dispone de un celular real, abrir http://IP-DEL-PC:5000 (servidor con --listen=0.0.0.0:5000, misma red WiFi)
+  y anotar modelo, navegador y version. Detener el servidor al terminar.
+
+NOTAS
+  - No confundir con integracion entre modulos: aqui se compara el MISMO flujo en entornos distintos.
+  - Un navegador no instalado sale como NO DISPONIBLE: no es un fallo del SGA; anotarlo como fuera de alcance.
+  - Chrome/Edge: tableta y movil se emulan con el protocolo del navegador (equivale al modo dispositivo de DevTools).
+    Firefox: se redimensiona la ventana; si no baja del ancho minimo, el script registra la resolucion real obtenida.

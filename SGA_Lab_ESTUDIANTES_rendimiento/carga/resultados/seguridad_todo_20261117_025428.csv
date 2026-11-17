@@ -1,0 +1,35 @@
+﻿caso,prueba,cuenta,esperado,obtenido,resultado
+SEC-038,Mis matriculas muestra solo lo propio,est01,"SEC-A si, SEC-B no","SEC-A=si, SEC-B=no",CUMPLE
+SEC-038,Pantalla de calificaciones (docente/admin) no expone datos ajenos,est01,sin datos del otro estudiante,sin datos,CUMPLE
+SEC-038,No puede modificar notas del otro estudiante,est01,nota sin cambios,sin cambios,CUMPLE
+SEC-038,Mis matriculas muestra solo lo propio,est02,"SEC-B si, SEC-A no","SEC-B=si, SEC-A=no",CUMPLE
+SEC-038,Pantalla de calificaciones (docente/admin) no expone datos ajenos,est02,sin datos del otro estudiante,sin datos,CUMPLE
+SEC-038,No puede modificar notas del otro estudiante,est02,nota sin cambios,sin cambios,CUMPLE
+SEC-038,Sin sesion no ve matriculas,anonimo,sin datos SEC,sin datos,CUMPLE
+SEC-039,CONTROL: admin si crea cursos,admin,curso creado,creado,CUMPLE
+SEC-039,CONTROL: docente si califica su propio curso,docente01,nota 4.0,4.0,CUMPLE
+SEC-039,Estudiante abre el formulario de crear cursos,estudiante,formulario no disponible,no visible,CUMPLE
+SEC-039,Estudiante intenta crear un curso,estudiante,curso no creado,no creado,CUMPLE
+SEC-039,Estudiante intenta cambiar su propia nota,estudiante,nota sin cambios,sin cambios,CUMPLE
+SEC-039,Estudiante abre la pantalla de calificaciones,estudiante,sin formulario de notas,no visible,CUMPLE
+SEC-039,Docente intenta crear un curso (solo admin),docente01,curso no creado,no creado,CUMPLE
+SEC-039,Docente solo ve los cursos que dicta,docente01,"SEC-A si, SEC-B no","SEC-A=si, SEC-B=no",CUMPLE
+SEC-039,Docente califica un curso de OTRO docente,docente02,nota sin cambios,sin cambios,CUMPLE
+SEC-039,Sin sesion intenta crear curso y cambiar notas,anonimo,nada cambia,nada cambia,CUMPLE
+SEC-039,Registro publico con campo 'role=admin' manipulado,anonimo,rol student,rol student,CUMPLE
+SEC-040,P01 7 caracteres: digito,anonimo,rechazar,aceptada,NO CUMPLE
+SEC-040,P02 8 caracteres: digito,anonimo,rechazar,aceptada,NO CUMPLE
+SEC-040,P03 8 caracteres: minusc,anonimo,rechazar,aceptada,NO CUMPLE
+SEC-040,P04 8 caracteres: mayusc,anonimo,rechazar,aceptada,NO CUMPLE
+SEC-040,"P05 8 caracteres: minusc, digito",anonimo,rechazar,aceptada,NO CUMPLE
+SEC-040,"P06 8 caracteres: minusc, mayusc, digito",anonimo,rechazar,aceptada,NO CUMPLE
+SEC-040,"P07 4 caracteres: minusc, mayusc, digito, simbolo",anonimo,rechazar,aceptada,NO CUMPLE
+SEC-040,P08 0 caracteres: sin letras ni numeros,anonimo,rechazar,aceptada,NO CUMPLE
+SEC-040,P09 8 caracteres: sin letras ni numeros,anonimo,rechazar,aceptada,NO CUMPLE
+SEC-040,"P10 8 caracteres: minusc, mayusc, digito, simbolo",anonimo,aceptar,aceptada,CUMPLE
+SEC-040,Contrasena almacenada como hash (no en claro),secpw10,hash con sal,scrypt,CUMPLE
+SEC-040,"P11 15 caracteres: minusc, mayusc, digito, simbolo",anonimo,aceptar,aceptada,CUMPLE
+SEC-040,"P12 64 caracteres: minusc, mayusc, digito, simbolo",anonimo,aceptar,aceptada,CUMPLE
+SEC-040,"P13 108 caracteres: minusc, mayusc, digito, simbolo",anonimo,rechazar,aceptada,NO CUMPLE
+SEC-040,Mismo mensaje con usuario inexistente y clave incorrecta,anonimo,mensajes iguales,iguales,CUMPLE
+SEC-040,Bloqueo de la cuenta tras 5 intentos fallidos,sec.blq01,login correcto rechazado,bloqueada,CUMPLE

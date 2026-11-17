@@ -1,0 +1,3 @@
+﻿caso;usuarios;duracion_s;muestras;media_ms;p90_ms;p95_ms;p99_ms;error_pct;solicitudes_por_s;cpu_media_pct;cpu_pico_pct;mem_inicio_mb;mem_max_mb
+HUMO;1;20;21;37;60;61;121;66.67;1.1;;;;
+HUMO2;1;20;21;29;55;135;261;0.0;1.1;;;;

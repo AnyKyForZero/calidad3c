@@ -1,0 +1,6 @@
+﻿caso;prueba;resultado;incumplimientos;detalle
+FAIL-036;A1. Estado tras cortes de conexion (BD integra y coherente);CUMPLE;;"solicitudes completas procesadas: 5 de 20; incompletas procesadas: 0 de 20"
+FAIL-036;A2. Reintento tras el corte: cada estudiante queda matriculado una sola vez;CUMPLE;;matriculas finales: 40 de 40
+FAIL-036;B1. Estado de la BD justo tras la caida (sin servidor);CUMPLE;;"0 respuestas recibidas, 60 conexiones cortadas; matriculas guardadas: 20"
+FAIL-036;B2. El servicio vuelve a funcionar tras reiniciar;CUMPLE;;
+FAIL-036;B3. Reintento tras la recuperacion: cupo y matriculas coherentes;CUMPLE;;matriculas finales: 40 (cupo 40, 60 estudiantes)

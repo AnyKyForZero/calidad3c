@@ -1,0 +1,27 @@
+FASE VIII - PRUEBAS DE RENDIMIENTO (LOAD-021 a LOAD-024)
+
+Contenido de la carpeta carga\ (copiar a la raiz de la COPIA del proyecto, no al original):
+  plan_SGA.jmx              plan de JMeter (4 operaciones: login, cursos, matricula, mis matriculas)
+  preparar_datos_carga.py   crea N estudiantes virtuales y usuarios.csv
+  monitor_recursos.py       mide CPU y memoria del servidor (psutil)
+  resumir_resultados.py     calcula media, p90, p95, errores, solicitudes/s, CPU y memoria
+  escenario_carga.py        generador alternativo en Python (valida el escenario / contraste)
+  ejecutar_cargas.ps1       ejecuta los casos con JMeter y guarda la evidencia
+
+Pasos resumidos:
+  1. Acordar con el docente limites de usuarios, infraestructura y umbrales (hoja Rendimiento del Excel).
+  2. Copiar el proyecto a una carpeta nueva (sin .venv) y copiar alli la carpeta carga\.
+  3. python -m pip install waitress psutil requests
+  4. python carga\preparar_datos_carga.py --usuarios 300
+  5. Iniciar el servidor (otra terminal):  python -m waitress --listen=127.0.0.1:5000 run:app
+  6. Prueba de humo con 1 usuario antes de cualquier carga:
+       python carga\escenario_carga.py --usuarios 1 --rampa 1 --duracion 20 --salida carga\resultados\humo.jtl
+  7. .\carga\ejecutar_cargas.ps1 -JMeter "C:\apache-jmeter-5.6.3\bin\jmeter.bat" -Hasta 100
+  8. Registrar los resultados en la hoja Rendimiento y guardar carga\resultados\ en 05_Evidencias.
+
+FASE IX - ESTRES (STR-025)
+  estres.py  sube la carga por niveles (100..600), se detiene al cumplirse los criterios de detencion y
+             prueba la recuperacion. Ejemplo:
+       python carga\estres.py --jmeter "C:\apache-jmeter-5.6.3\bin\jmeter.bat" --niveles 100,200,300,400,500,600
+  Preparar antes 600 usuarios:  python carga\preparar_datos_carga.py --usuarios 600
+  Resultado: carga\resultados\estres_resultado.csv, resumen_estres.csv y un reporte HTML por nivel.

@@ -1,0 +1,11 @@
+﻿archivo,lineas,indice_mantenibilidad,rango,lineas_multi_sentencia,lineas_>120,comentarios_%
+app/__init__.py,13,100.0,A,4,2,7.7
+app/auth.py,36,61.0,A,8,5,8.3
+app/config.py,4,78.7,A,0,0,0.0
+app/courses.py,20,75.8,A,2,3,10.0
+app/db.py,21,65.7,A,7,8,0.0
+app/enrollments.py,23,76.0,A,10,4,26.1
+app/grades.py,26,72.3,A,9,8,23.1
+app/main.py,5,100.0,A,0,0,0.0
+app/reports.py,8,100.0,A,1,1,0.0
+app/utils.py,23,56.3,A,2,0,0.0

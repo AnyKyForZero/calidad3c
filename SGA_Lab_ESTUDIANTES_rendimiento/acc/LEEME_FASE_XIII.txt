@@ -1,0 +1,38 @@
+FASE XIII - PRUEBAS DE ACCESIBILIDAD (ACC-033, ACC-034, ACC-035)
+Carpeta acc\ en la raiz de la copia SGA_Lab_ESTUDIANTES_rendimiento (con DEF-15 aplicado).
+
+ESTANDAR ADOPTADO (escribirlo en el informe antes de ejecutar): WCAG 2.1 nivel AA
+  - Contraste: texto normal >= 4.5:1; texto grande (>=24 px, o >=19 px en negrita) >= 3:1; componentes de interfaz >= 3:1.
+  - Teclado: todo se puede usar con teclado, sin trampas y con foco visible (2.1.1, 2.1.2, 2.4.7).
+  - Nombres: cada control tiene etiqueta o nombre accesible; la pagina tiene titulo e idioma (1.3.1, 4.1.2, 2.4.2, 3.1.1).
+
+PARTE 1 - AUTOMATICA (Selenium + axe-core; 5 minutos)
+  1. Servidor iniciado:  python -m waitress --listen=127.0.0.1:5000 run:app
+  2. python carga\preparar_datos_carga.py --usuarios 600      (usa la cuenta carga0595)
+  3. python acc\accesibilidad.py
+     Opcional: --navegador edge   --paginas-extra /grades/my,/courses/new
+  4. Resultado: acc\resultados\acc_resultado.csv, un JSON de axe por pagina y capturas.
+     Cubre: recorrida real con Tab (alcance, orden, trampas, foco visible), inicio de sesion solo con teclado,
+     contraste (axe), nombres/etiquetas/titulo/idioma/encabezados (axe).
+
+PARTE 2 - MANUAL (lo que el programa no puede medir)
+  ACC-033 Teclado (Tab, Shift+Tab, Enter, Espacio, flechas)
+    Recorrer SIN mouse: login, lista de cursos, matricula, mis matriculas, cierre de sesion; y como docente/administrador
+    los formularios de notas y de creacion de cursos.
+    [ ] El orden de Tab sigue el orden visual y es logico      [ ] Se ve siempre donde esta el foco
+    [ ] Enter activa enlaces y botones; Espacio activa botones [ ] Las listas desplegables se manejan con flechas
+    [ ] No hay controles que solo funcionen con mouse           [ ] No queda atrapado el foco
+    [ ] Hay forma de saltar el menu (enlace "ir al contenido")  [ ] Con zoom al 200 % (Ctrl +) se sigue usando
+  ACC-034 Contraste (herramienta: Colour Contrast Analyser de TPGi, o DevTools > inspeccionar > selector de color)
+    Medir y anotar: texto normal, enlaces, botones (texto y borde), mensajes de error/exito (flash), texto de tablas,
+    placeholder de campos y los ESTADOS: hover, foco, deshabilitado. axe no evalua bien estos ultimos.
+    Registrar: elemento | color texto | color fondo | relacion | minimo | cumple.
+  ACC-035 Etiquetas y lector de pantalla
+    a) Chrome DevTools > Lighthouse > categoria Accessibility > Analizar la pagina; guardar el informe (icono de descarga).
+       Repetir en login, cursos y mis matriculas.
+    b) Lector de pantalla gratuito NVDA (nvaccess.org): iniciar con Ctrl+Alt+N, recorrer con Tab cada formulario y
+       anotar lo que ANUNCIA (ej.: "Correo electronico, editar") frente a lo que se espera. Con la tecla H recorrer encabezados.
+       Si NVDA dice solo "editar" o "boton" sin nombre, es una barrera.
+    c) Opcional: extension WAVE (wave.webaim.org) y captura de la pagina con los iconos de error.
+
+REGISTRAR en el informe, por barrera: herramienta | pagina | elemento | criterio WCAG | impacto | evidencia (captura o JSON).

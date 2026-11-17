@@ -1,0 +1,5 @@
+﻿usuarios;media_ms;p95_ms;error_pct;req_s;cpu_pct;estado
+100;31.0;56.0;0.0;77.8;2.7;ESTABLE
+200;836.0;131.0;0.0;87.4;3.8;ESTABLE
+300;1403.0;323.0;10.74;100.1;4.7;DETENCION
+recuperacion;8.0;13.0;0.0;39.8;1.5;RECUPERA

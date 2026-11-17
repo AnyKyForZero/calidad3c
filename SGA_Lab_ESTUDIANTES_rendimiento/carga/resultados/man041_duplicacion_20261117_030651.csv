@@ -1,0 +1,4 @@
+﻿tipo,ocurrencias,ubicaciones,fragmento
+literal SQL,2 veces,app/auth.py:28; app/db.py:18,"INSERT INTO users(document,first_name,last_name,email,phone,password_hash,role) VALUES(?,?,?,?,?,?,?)"
+literal SQL,2 veces,app/courses.py:18; app/db.py:21,"INSERT INTO courses(code,name,description,teacher_id,schedule,max_quota,status) VALUES(?,?,?,?,?,?,?)"
+literal SQL,2 veces,app/enrollments.py:16; app/enrollments.py:21,SELECT id FROM enrollments WHERE student_id=? AND course_id=?

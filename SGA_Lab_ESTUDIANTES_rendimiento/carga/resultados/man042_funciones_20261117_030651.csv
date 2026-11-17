@@ -1,0 +1,21 @@
+﻿archivo,funcion,linea,lineas,CC,rango,anidamiento,lineas_multi_sentencia,lineas_largas,clasificacion,indicadores
+app/grades.py,save,14,13,9,B,1,6,6,ATENCION (legibilidad),6 lineas con varias sentencias; 6 lineas > 120 car.
+app/auth.py,login,10,11,8,B,4,5,4,ATENCION (legibilidad),5 lineas con varias sentencias; 4 lineas > 120 car.
+app/enrollments.py,enroll,11,13,7,B,1,9,3,ATENCION (legibilidad),9 lineas con varias sentencias; 3 lineas > 120 car.
+app/courses.py,new,10,11,6,B,3,1,2,aceptable,
+app/auth.py,register,22,10,6,B,2,2,1,aceptable,
+app/utils.py,user,4,4,3,A,1,0,0,aceptable,
+app/db.py,init_db,11,5,2,A,2,2,0,aceptable,
+app/grades.py,index,7,5,2,A,1,3,2,ATENCION (legibilidad),3 lineas con varias sentencias
+app/utils.py,roles,14,10,1,A,1,1,0,aceptable,
+app/__init__.py,create_app,5,9,1,A,0,4,2,ATENCION (legibilidad),4 lineas con varias sentencias
+app/db.py,seed,16,6,1,A,0,0,4,ATENCION (legibilidad),4 lineas > 120 car.
+app/utils.py,login_required,8,6,1,A,1,1,0,aceptable,
+app/auth.py,logout,33,2,1,A,0,1,0,aceptable,
+app/courses.py,index,6,2,1,A,0,1,1,aceptable,
+app/db.py,get_db,9,2,1,A,0,1,0,aceptable,
+app/enrollments.py,mine,7,2,1,A,0,1,1,aceptable,
+app/reports.py,index,7,2,1,A,0,1,1,aceptable,
+app/auth.py,valid_email,8,1,1,A,0,0,0,aceptable,
+app/auth.py,inject,36,1,1,A,0,0,0,aceptable,
+app/main.py,index,5,1,1,A,0,0,0,aceptable,

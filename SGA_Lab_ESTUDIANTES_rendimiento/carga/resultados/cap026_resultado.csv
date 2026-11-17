@@ -1,0 +1,5 @@
+﻿usuarios;media_ms;p95_ms;error_pct;req_s;cpu_pct;resultado;incumplimientos
+50;11;34;0.0;39.9;1.6;CUMPLE;
+100;29;70;0.0;78.0;3.0;CUMPLE;
+150;946;158;0.0;45.3;4.1;NO CUMPLE;01 Login: p95 29573 ms > 3000 ms
+capacidad;100;;;;;CONFIRMADA;

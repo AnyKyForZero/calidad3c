@@ -1,0 +1,91 @@
+﻿caso;navegador;version;sistema_operativo;viewport;resolucion;prueba;resultado;diferencia_observada;captura
+COM-029;chrome;157.0.8103.52;Windows 11 (10.0.26200);escritorio;1367x768;Login: formulario visible y utilizable;CUMPLE;;capturas/chrome_escritorio_01.png
+COM-029;chrome;157.0.8103.52;Windows 11 (10.0.26200);escritorio;1367x768;Login: sin desplazamiento horizontal;CUMPLE;;
+COM-029;chrome;157.0.8103.52;Windows 11 (10.0.26200);escritorio;1367x768;Meta viewport presente (adaptacion a movil);CUMPLE;;
+COM-029;chrome;157.0.8103.52;Windows 11 (10.0.26200);escritorio;1367x768;Iniciar sesion con credenciales validas;CUMPLE;;capturas/chrome_escritorio_04.png
+COM-029;chrome;157.0.8103.52;Windows 11 (10.0.26200);escritorio;1367x768;Consultar cursos: lista visible;CUMPLE;;capturas/chrome_escritorio_05.png
+COM-029;chrome;157.0.8103.52;Windows 11 (10.0.26200);escritorio;1367x768;Cursos: sin desplazamiento horizontal;CUMPLE;;
+COM-029;chrome;157.0.8103.52;Windows 11 (10.0.26200);escritorio;1367x768;Matricularse: boton accesible y respuesta del sistema ('Ya matriculado');CUMPLE;;capturas/chrome_escritorio_07.png
+COM-029;chrome;157.0.8103.52;Windows 11 (10.0.26200);escritorio;1367x768;Mis matriculas: pagina visible;CUMPLE;;capturas/chrome_escritorio_08.png
+COM-029;chrome;157.0.8103.52;Windows 11 (10.0.26200);escritorio;1367x768;Mis matriculas: sin desplazamiento horizontal;CUMPLE;;
+COM-029;chrome;157.0.8103.52;Windows 11 (10.0.26200);escritorio;1367x768;Cerrar sesion: opcion 'Salir' accesible y cierra la sesion;CUMPLE;;capturas/chrome_escritorio_10.png
+COM-030;chrome;157.0.8103.52;Windows 11 (10.0.26200);tableta;768x1024;Login: formulario visible y utilizable;CUMPLE;;capturas/chrome_tableta_01.png
+COM-030;chrome;157.0.8103.52;Windows 11 (10.0.26200);tableta;768x1024;Login: sin desplazamiento horizontal;CUMPLE;;
+COM-030;chrome;157.0.8103.52;Windows 11 (10.0.26200);tableta;768x1024;Meta viewport presente (adaptacion a movil);CUMPLE;;
+COM-030;chrome;157.0.8103.52;Windows 11 (10.0.26200);tableta;768x1024;Iniciar sesion con credenciales validas;CUMPLE;;capturas/chrome_tableta_04.png
+COM-030;chrome;157.0.8103.52;Windows 11 (10.0.26200);tableta;768x1024;Consultar cursos: lista visible;CUMPLE;;capturas/chrome_tableta_05.png
+COM-030;chrome;157.0.8103.52;Windows 11 (10.0.26200);tableta;768x1024;Cursos: sin desplazamiento horizontal;CUMPLE;;
+COM-030;chrome;157.0.8103.52;Windows 11 (10.0.26200);tableta;768x1024;Matricularse: boton accesible y respuesta del sistema ('Ya matriculado');CUMPLE;;capturas/chrome_tableta_07.png
+COM-030;chrome;157.0.8103.52;Windows 11 (10.0.26200);tableta;768x1024;Mis matriculas: pagina visible;CUMPLE;;capturas/chrome_tableta_08.png
+COM-030;chrome;157.0.8103.52;Windows 11 (10.0.26200);tableta;768x1024;Mis matriculas: sin desplazamiento horizontal;CUMPLE;;
+COM-030;chrome;157.0.8103.52;Windows 11 (10.0.26200);tableta;768x1024;Cerrar sesion: opcion 'Salir' accesible y cierra la sesion;CUMPLE;;capturas/chrome_tableta_10.png
+COM-030;chrome;157.0.8103.52;Windows 11 (10.0.26200);movil;390x844;Login: formulario visible y utilizable;CUMPLE;;capturas/chrome_movil_01.png
+COM-030;chrome;157.0.8103.52;Windows 11 (10.0.26200);movil;390x844;Login: sin desplazamiento horizontal;CUMPLE;;
+COM-030;chrome;157.0.8103.52;Windows 11 (10.0.26200);movil;390x844;Meta viewport presente (adaptacion a movil);CUMPLE;;
+COM-030;chrome;157.0.8103.52;Windows 11 (10.0.26200);movil;390x844;Iniciar sesion con credenciales validas;CUMPLE;;capturas/chrome_movil_04.png
+COM-030;chrome;157.0.8103.52;Windows 11 (10.0.26200);movil;390x844;Consultar cursos: lista visible;CUMPLE;;capturas/chrome_movil_05.png
+COM-030;chrome;157.0.8103.52;Windows 11 (10.0.26200);movil;390x844;Cursos: sin desplazamiento horizontal;NO CUMPLE;contenido 634px > pantalla 390px;
+COM-030;chrome;157.0.8103.52;Windows 11 (10.0.26200);movil;390x844;Matricularse: boton accesible y respuesta del sistema ('');NO CUMPLE;fuera del ancho de pantalla (x=537, ancho=87, pantalla=390);capturas/chrome_movil_07.png
+COM-030;chrome;157.0.8103.52;Windows 11 (10.0.26200);movil;390x844;Mis matriculas: pagina visible;CUMPLE;;capturas/chrome_movil_08.png
+COM-030;chrome;157.0.8103.52;Windows 11 (10.0.26200);movil;390x844;Mis matriculas: sin desplazamiento horizontal;CUMPLE;;
+COM-030;chrome;157.0.8103.52;Windows 11 (10.0.26200);movil;390x844;Cerrar sesion: opcion 'Salir' accesible y cierra la sesion;CUMPLE;;capturas/chrome_movil_10.png
+COM-029;edge;157.0.4341.60;Windows 11 (10.0.26200);escritorio;1366x770;Login: formulario visible y utilizable;CUMPLE;;capturas/edge_escritorio_01.png
+COM-029;edge;157.0.4341.60;Windows 11 (10.0.26200);escritorio;1366x770;Login: sin desplazamiento horizontal;CUMPLE;;
+COM-029;edge;157.0.4341.60;Windows 11 (10.0.26200);escritorio;1366x770;Meta viewport presente (adaptacion a movil);CUMPLE;;
+COM-029;edge;157.0.4341.60;Windows 11 (10.0.26200);escritorio;1366x770;Iniciar sesion con credenciales validas;CUMPLE;;capturas/edge_escritorio_04.png
+COM-029;edge;157.0.4341.60;Windows 11 (10.0.26200);escritorio;1366x770;Consultar cursos: lista visible;CUMPLE;;capturas/edge_escritorio_05.png
+COM-029;edge;157.0.4341.60;Windows 11 (10.0.26200);escritorio;1366x770;Cursos: sin desplazamiento horizontal;CUMPLE;;
+COM-029;edge;157.0.4341.60;Windows 11 (10.0.26200);escritorio;1366x770;Matricularse: boton accesible y respuesta del sistema ('Ya matriculado');CUMPLE;;capturas/edge_escritorio_07.png
+COM-029;edge;157.0.4341.60;Windows 11 (10.0.26200);escritorio;1366x770;Mis matriculas: pagina visible;CUMPLE;;capturas/edge_escritorio_08.png
+COM-029;edge;157.0.4341.60;Windows 11 (10.0.26200);escritorio;1366x770;Mis matriculas: sin desplazamiento horizontal;CUMPLE;;
+COM-029;edge;157.0.4341.60;Windows 11 (10.0.26200);escritorio;1366x770;Cerrar sesion: opcion 'Salir' accesible y cierra la sesion;CUMPLE;;capturas/edge_escritorio_10.png
+COM-030;edge;157.0.4341.60;Windows 11 (10.0.26200);tableta;768x1024;Login: formulario visible y utilizable;CUMPLE;;capturas/edge_tableta_01.png
+COM-030;edge;157.0.4341.60;Windows 11 (10.0.26200);tableta;768x1024;Login: sin desplazamiento horizontal;CUMPLE;;
+COM-030;edge;157.0.4341.60;Windows 11 (10.0.26200);tableta;768x1024;Meta viewport presente (adaptacion a movil);CUMPLE;;
+COM-030;edge;157.0.4341.60;Windows 11 (10.0.26200);tableta;768x1024;Iniciar sesion con credenciales validas;CUMPLE;;capturas/edge_tableta_04.png
+COM-030;edge;157.0.4341.60;Windows 11 (10.0.26200);tableta;768x1024;Consultar cursos: lista visible;CUMPLE;;capturas/edge_tableta_05.png
+COM-030;edge;157.0.4341.60;Windows 11 (10.0.26200);tableta;768x1024;Cursos: sin desplazamiento horizontal;CUMPLE;;
+COM-030;edge;157.0.4341.60;Windows 11 (10.0.26200);tableta;768x1024;Matricularse: boton accesible y respuesta del sistema ('Ya matriculado');CUMPLE;;capturas/edge_tableta_07.png
+COM-030;edge;157.0.4341.60;Windows 11 (10.0.26200);tableta;768x1024;Mis matriculas: pagina visible;CUMPLE;;capturas/edge_tableta_08.png
+COM-030;edge;157.0.4341.60;Windows 11 (10.0.26200);tableta;768x1024;Mis matriculas: sin desplazamiento horizontal;CUMPLE;;
+COM-030;edge;157.0.4341.60;Windows 11 (10.0.26200);tableta;768x1024;Cerrar sesion: opcion 'Salir' accesible y cierra la sesion;CUMPLE;;capturas/edge_tableta_10.png
+COM-030;edge;157.0.4341.60;Windows 11 (10.0.26200);movil;390x844;Login: formulario visible y utilizable;CUMPLE;;capturas/edge_movil_01.png
+COM-030;edge;157.0.4341.60;Windows 11 (10.0.26200);movil;390x844;Login: sin desplazamiento horizontal;CUMPLE;;
+COM-030;edge;157.0.4341.60;Windows 11 (10.0.26200);movil;390x844;Meta viewport presente (adaptacion a movil);CUMPLE;;
+COM-030;edge;157.0.4341.60;Windows 11 (10.0.26200);movil;390x844;Iniciar sesion con credenciales validas;CUMPLE;;capturas/edge_movil_04.png
+COM-030;edge;157.0.4341.60;Windows 11 (10.0.26200);movil;390x844;Consultar cursos: lista visible;CUMPLE;;capturas/edge_movil_05.png
+COM-030;edge;157.0.4341.60;Windows 11 (10.0.26200);movil;390x844;Cursos: sin desplazamiento horizontal;NO CUMPLE;contenido 634px > pantalla 390px;
+COM-030;edge;157.0.4341.60;Windows 11 (10.0.26200);movil;390x844;Matricularse: boton accesible y respuesta del sistema ('');NO CUMPLE;fuera del ancho de pantalla (x=537, ancho=87, pantalla=390);capturas/edge_movil_07.png
+COM-030;edge;157.0.4341.60;Windows 11 (10.0.26200);movil;390x844;Mis matriculas: pagina visible;CUMPLE;;capturas/edge_movil_08.png
+COM-030;edge;157.0.4341.60;Windows 11 (10.0.26200);movil;390x844;Mis matriculas: sin desplazamiento horizontal;CUMPLE;;
+COM-030;edge;157.0.4341.60;Windows 11 (10.0.26200);movil;390x844;Cerrar sesion: opcion 'Salir' accesible y cierra la sesion;CUMPLE;;capturas/edge_movil_10.png
+COM-029;firefox;160.0;Windows 11 (10.0.26200);escritorio;1366x768;Login: formulario visible y utilizable;CUMPLE;;capturas/firefox_escritorio_01.png
+COM-029;firefox;160.0;Windows 11 (10.0.26200);escritorio;1366x768;Login: sin desplazamiento horizontal;CUMPLE;;
+COM-029;firefox;160.0;Windows 11 (10.0.26200);escritorio;1366x768;Meta viewport presente (adaptacion a movil);CUMPLE;;
+COM-029;firefox;160.0;Windows 11 (10.0.26200);escritorio;1366x768;Iniciar sesion con credenciales validas;CUMPLE;;capturas/firefox_escritorio_04.png
+COM-029;firefox;160.0;Windows 11 (10.0.26200);escritorio;1366x768;Consultar cursos: lista visible;CUMPLE;;capturas/firefox_escritorio_05.png
+COM-029;firefox;160.0;Windows 11 (10.0.26200);escritorio;1366x768;Cursos: sin desplazamiento horizontal;CUMPLE;;
+COM-029;firefox;160.0;Windows 11 (10.0.26200);escritorio;1366x768;Matricularse: boton accesible y respuesta del sistema ('Ya matriculado');CUMPLE;;capturas/firefox_escritorio_07.png
+COM-029;firefox;160.0;Windows 11 (10.0.26200);escritorio;1366x768;Mis matriculas: pagina visible;CUMPLE;;capturas/firefox_escritorio_08.png
+COM-029;firefox;160.0;Windows 11 (10.0.26200);escritorio;1366x768;Mis matriculas: sin desplazamiento horizontal;CUMPLE;;
+COM-029;firefox;160.0;Windows 11 (10.0.26200);escritorio;1366x768;Cerrar sesion: opcion 'Salir' accesible y cierra la sesion;CUMPLE;;capturas/firefox_escritorio_10.png
+COM-030;firefox;160.0;Windows 11 (10.0.26200);tableta;768x1024;Login: formulario visible y utilizable;CUMPLE;;capturas/firefox_tableta_01.png
+COM-030;firefox;160.0;Windows 11 (10.0.26200);tableta;768x1024;Login: sin desplazamiento horizontal;CUMPLE;;
+COM-030;firefox;160.0;Windows 11 (10.0.26200);tableta;768x1024;Meta viewport presente (adaptacion a movil);CUMPLE;;
+COM-030;firefox;160.0;Windows 11 (10.0.26200);tableta;768x1024;Iniciar sesion con credenciales validas;CUMPLE;;capturas/firefox_tableta_04.png
+COM-030;firefox;160.0;Windows 11 (10.0.26200);tableta;768x1024;Consultar cursos: lista visible;CUMPLE;;capturas/firefox_tableta_05.png
+COM-030;firefox;160.0;Windows 11 (10.0.26200);tableta;768x1024;Cursos: sin desplazamiento horizontal;CUMPLE;;
+COM-030;firefox;160.0;Windows 11 (10.0.26200);tableta;768x1024;Matricularse: boton accesible y respuesta del sistema ('Ya matriculado');CUMPLE;;capturas/firefox_tableta_07.png
+COM-030;firefox;160.0;Windows 11 (10.0.26200);tableta;768x1024;Mis matriculas: pagina visible;CUMPLE;;capturas/firefox_tableta_08.png
+COM-030;firefox;160.0;Windows 11 (10.0.26200);tableta;768x1024;Mis matriculas: sin desplazamiento horizontal;CUMPLE;;
+COM-030;firefox;160.0;Windows 11 (10.0.26200);tableta;768x1024;Cerrar sesion: opcion 'Salir' accesible y cierra la sesion;CUMPLE;;capturas/firefox_tableta_10.png
+COM-030;firefox;160.0;Windows 11 (10.0.26200);movil;500x844;Login: formulario visible y utilizable;CUMPLE;;capturas/firefox_movil_01.png
+COM-030;firefox;160.0;Windows 11 (10.0.26200);movil;500x844;Login: sin desplazamiento horizontal;CUMPLE;;
+COM-030;firefox;160.0;Windows 11 (10.0.26200);movil;500x844;Meta viewport presente (adaptacion a movil);CUMPLE;;
+COM-030;firefox;160.0;Windows 11 (10.0.26200);movil;500x844;Iniciar sesion con credenciales validas;CUMPLE;;capturas/firefox_movil_04.png
+COM-030;firefox;160.0;Windows 11 (10.0.26200);movil;500x844;Consultar cursos: lista visible;CUMPLE;;capturas/firefox_movil_05.png
+COM-030;firefox;160.0;Windows 11 (10.0.26200);movil;500x844;Cursos: sin desplazamiento horizontal;NO CUMPLE;contenido 650px > pantalla 500px;
+COM-030;firefox;160.0;Windows 11 (10.0.26200);movil;500x844;Matricularse: boton accesible y respuesta del sistema ('Ya matriculado');NO CUMPLE;fuera del ancho de pantalla (x=554, ancho=86, pantalla=500);capturas/firefox_movil_07.png
+COM-030;firefox;160.0;Windows 11 (10.0.26200);movil;500x844;Mis matriculas: pagina visible;CUMPLE;;capturas/firefox_movil_08.png
+COM-030;firefox;160.0;Windows 11 (10.0.26200);movil;500x844;Mis matriculas: sin desplazamiento horizontal;CUMPLE;;
+COM-030;firefox;160.0;Windows 11 (10.0.26200);movil;500x844;Cerrar sesion: opcion 'Salir' accesible y cierra la sesion;CUMPLE;;capturas/firefox_movil_10.png

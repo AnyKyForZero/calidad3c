@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block content %}<h1>Reporte general</h1><div class="cards">{% for label,val in [('Estudiantes',students),('Cursos',courses),('Matriculas',enrollments),('Notas',grades)] %}<div class="card"><strong>{{val}}</strong><span>{{label}}</span></div>{% endfor %}</div>{% endblock %}

@@ -1,0 +1,22 @@
+timeStamp,elapsed,label,responseCode,success,threadName,allThreads
+1794889017716,261,01 Login,200,true,Estudiantes 1,1
+1794889017977,17,02 Consultar cursos,200,true,Estudiantes 1,1
+1794889018995,55,03 Matricular,200,true,Estudiantes 1,1
+1794889020051,4,04 Mis matriculas,200,true,Estudiantes 1,1
+1794889021057,4,02 Consultar cursos,200,true,Estudiantes 1,1
+1794889022062,48,03 Matricular,200,true,Estudiantes 1,1
+1794889023111,4,04 Mis matriculas,200,true,Estudiantes 1,1
+1794889024116,4,02 Consultar cursos,200,true,Estudiantes 1,1
+1794889025121,9,03 Matricular,200,true,Estudiantes 1,1
+1794889026131,5,04 Mis matriculas,200,true,Estudiantes 1,1
+1794889027137,4,02 Consultar cursos,200,true,Estudiantes 1,1
+1794889028142,135,03 Matricular,200,true,Estudiantes 1,1
+1794889029278,4,04 Mis matriculas,200,true,Estudiantes 1,1
+1794889030283,4,02 Consultar cursos,200,true,Estudiantes 1,1
+1794889031289,9,03 Matricular,200,true,Estudiantes 1,1
+1794889032299,4,04 Mis matriculas,200,true,Estudiantes 1,1
+1794889033304,5,02 Consultar cursos,200,true,Estudiantes 1,1
+1794889034309,9,03 Matricular,200,true,Estudiantes 1,1
+1794889035320,4,04 Mis matriculas,200,true,Estudiantes 1,1
+1794889036325,4,02 Consultar cursos,200,true,Estudiantes 1,1
+1794889037331,9,03 Matricular,200,true,Estudiantes 1,1

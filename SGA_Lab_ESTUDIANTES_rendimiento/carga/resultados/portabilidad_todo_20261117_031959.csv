@@ -1,0 +1,22 @@
+﻿caso,paso,resultado,detalle,segundos
+POR-043,"Copia limpia del proyecto (sin .venv, bases de datos ni resultados)",CUMPLE,62 archivos,0.2
+POR-043,Hay documentacion de instalacion en la raiz,CUMPLE,README.md,
+POR-043,Existe requirements.txt con las dependencias,CUMPLE,,
+POR-043,Crear entorno virtual nuevo en el destino,CUMPLE,,5.9
+POR-043,Instalar dependencias con pip install -r requirements.txt,CUMPLE,,4.7
+POR-043,Dependencias suficientes para ejecutar (flask y waitress),NO CUMPLE,faltaban: waitress,
+POR-043,Poner en marcha: waitress --port=5200 run:app (desde la copia),CUMPLE,,1.7
+POR-043,Prueba de humo: pagina de inicio,CUMPLE,HTTP 200,
+POR-043,Prueba de humo: listado de cursos,CUMPLE,HTTP 200,
+POR-043,Prueba de humo: formulario de ingreso,CUMPLE,HTTP 200,
+POR-043,Prueba de humo: registrar una cuenta e iniciar sesion,CUMPLE,cuenta por.test01 (sin mostrar clave),
+POR-043,Prueba de humo: Mis matriculas (sesion iniciada),CUMPLE,HTTP 200,
+POR-043,La base de datos se creo dentro de la copia (instance/sga.db),CUMPLE,E:\PROYECTO_SGA\SGA Portabilidad POR043\instance\sga.db,
+POR-043,La base de datos del proyecto ORIGINAL no fue tocada,CUMPLE,E:\PROYECTO_SGA\SGA_Lab_ESTUDIANTES_rendimiento\instance\sga.db,
+POR-044,El codigo de la aplicacion no contiene rutas absolutas,CUMPLE,,
+POR-044,"La configuracion permite cambiar valores por variable de entorno (SECRET_KEY, BD)",NO CUMPLE,la configuracion esta fija en el codigo; no hay variables de entorno,
+POR-044,"Ejecutando desde otro directorio, la BD queda dentro de la copia",CUMPLE,E:\PROYECTO_SGA\SGA Portabilidad POR043\instance\sga.db,
+POR-044,"Ejecutando desde otro directorio, la carpeta instance queda dentro de la copia",CUMPLE,E:\PROYECTO_SGA\SGA Portabilidad POR043\instance,
+POR-044,No se crean archivos sueltos en el directorio desde el que se ejecuta,CUMPLE,,
+POR-044,Plantillas y recursos estaticos viajan con la copia,CUMPLE,"static, templates",
+POR-044,Codificacion y rutas con espacios (la copia esta en una carpeta con espacio),CUMPLE,SGA Portabilidad POR043,

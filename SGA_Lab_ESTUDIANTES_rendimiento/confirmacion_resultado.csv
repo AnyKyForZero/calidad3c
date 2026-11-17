@@ -1,0 +1,16 @@
+﻿CON;Defecto;Casos originales;Resultado original;Estado original;Resultado actual;Decision
+CON-013;DEF-01;UT-001;5 de 7 correos invalidos aceptados;Fallida;10/10 pruebas pasan;CONFIRMADO COMO CORREGIDO
+CON-013;DEF-07;INT-005;Login falla con correo registrado en mayusculas;Fallida;2/2 pruebas pasan;CONFIRMADO COMO CORREGIDO
+CON-013;DEF-08;EXT-02;Se muestra 'UNIQUE constraint failed';Fallida;1/1 pruebas pasan;CONFIRMADO COMO CORREGIDO
+CON-013;DEF-11;EXT-07;Se crean cursos con cupo 0 y -5;Fallida;2/2 pruebas pasan;CONFIRMADO COMO CORREGIDO
+CON-013;DEF-12;EXT-07;Se crea curso con codigo duplicado;Fallida;1/1 pruebas pasan;CONFIRMADO COMO CORREGIDO
+CON-014;DEF-02;UT-002, SYS-011;Definitiva 6,25 en vez de 4,17;Fallida;3/3 pruebas pasan;CONFIRMADO COMO CORREGIDO
+CON-014;DEF-03;UT-003;Se guardan notas -1, 5,1 y 10;Fallida;6/6 pruebas pasan;CONFIRMADO COMO CORREGIDO
+CON-014;DEF-06;SYS-011, EXT-04;Error 500 al guardar notas por primera vez;Fallida;2/2 pruebas pasan;CONFIRMADO COMO CORREGIDO
+CON-014;DEF-09;UT-003;Error 500 con nota no numerica;Fallida;1/1 pruebas pasan;CONFIRMADO COMO CORREGIDO
+CON-014;DEF-10;EXT-05;La nota 0,0 se muestra como '-';Fallida;1/1 pruebas pasan;CONFIRMADO COMO CORREGIDO
+CON-015;DEF-04;UT-004, INT-006, EXT-08;enrolled_count nunca aumenta;Fallida;5/5 pruebas pasan;CONFIRMADO COMO CORREGIDO
+CON-015;DEF-05;INT-008;Se matricula en curso inactivo;Fallida;2/2 pruebas pasan;CONFIRMADO COMO CORREGIDO
+CON-016;DEF-13;SEC-039;Docente califica curso ajeno;Fallida;1/1 pruebas pasan;CONFIRMADO COMO CORREGIDO
+CON-016;DEF-14;SYS-012;Paginas protegidas sin Cache-Control: no-store;Fallida;1/1 pruebas pasan;CONFIRMADO COMO CORREGIDO
+REGRESION;-;Toda la suite;-;-;90/90 pruebas pasan;SIN REGRESIONES
